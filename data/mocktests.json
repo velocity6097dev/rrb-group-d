@@ -1,0 +1,69 @@
+{
+  "tests": [
+    {
+      "id": "mock-1",
+      "title": "Mock Test 1 — NTPC Pattern",
+      "durationMinutes": 25,
+      "description": "25 questions covering Maths, Reasoning and General Awareness in roughly NTPC proportions. A starter test — more will be added over time.",
+      "questions": [
+        {"subject": "Math", "question": "Find the HCF of 36 and 60.", "options": ["6", "9", "12", "18"], "correctIndex": 2, "explanation": "36 = 2²×3², 60 = 2²×3×5. Common factors: 2²×3 = 12."},
+        {"subject": "Math", "question": "A man buys an article for ₹500 and sells it for ₹575. Find his profit percentage.", "options": ["10%", "12%", "15%", "20%"], "correctIndex": 2, "explanation": "Profit = 75. Profit% = (75/500)×100 = 15%."},
+        {"subject": "Math", "question": "Simplify: 15% of 250 + 20% of 150.", "options": ["65", "67.5", "70", "72.5"], "correctIndex": 1, "explanation": "15% of 250 = 37.5; 20% of 150 = 30. Sum = 67.5."},
+        {"subject": "Math", "question": "Find the simple interest on ₹2000 at 5% per annum for 3 years.", "options": ["₹250", "₹300", "₹350", "₹400"], "correctIndex": 1, "explanation": "SI = (2000×5×3)/100 = ₹300."},
+        {"subject": "Math", "question": "Two numbers are in the ratio 3:5 and their sum is 64. Find the smaller number.", "options": ["20", "24", "28", "32"], "correctIndex": 1, "explanation": "3x+5x=64, x=8. Smaller number = 3×8 = 24."},
+        {"subject": "Math", "question": "A train 150 m long crosses a pole in 10 seconds. Find its speed in km/h.", "options": ["36", "45", "54", "60"], "correctIndex": 2, "explanation": "Speed = 150/10 = 15 m/s = 15×18/5 = 54 km/h."},
+        {"subject": "Math", "question": "Find the next number in the series: 2, 6, 12, 20, 30, ?", "options": ["36", "40", "42", "48"], "correctIndex": 2, "explanation": "Differences are 4,6,8,10,12 — so next term = 30+12 = 42."},
+        {"subject": "Math", "question": "The average of 5 numbers is 18. If one number is excluded, the average becomes 16. Find the excluded number.", "options": ["24", "26", "28", "30"], "correctIndex": 1, "explanation": "Sum of 5 = 90, sum of remaining 4 = 64. Excluded number = 90-64 = 26."},
+        {"subject": "Reasoning", "question": "Find the odd one out: Triangle, Square, Circle, Wood.", "options": ["Triangle", "Square", "Circle", "Wood"], "correctIndex": 3, "explanation": "The first three are geometric shapes; 'Wood' is a material, not a shape."},
+        {"subject": "Reasoning", "question": "If A=1, B=2, ... Z=26, find the sum of values of the letters in 'CAT'.", "options": ["22", "24", "26", "28"], "correctIndex": 1, "explanation": "C=3, A=1, T=20. Sum = 3+1+20 = 24."},
+        {"subject": "Reasoning", "question": "Complete the analogy: Doctor : Hospital :: Teacher : ?", "options": ["Hospital", "School", "Clinic", "Office"], "correctIndex": 1, "explanation": "A doctor works at a hospital; a teacher works at a school."},
+        {"subject": "Reasoning", "question": "Pointing to a photo, Ravi said, 'She is the daughter of my grandfather's only son.' If Ravi's grandfather has only one son, how is the girl related to Ravi?", "options": ["Sister", "Cousin", "Niece", "Daughter"], "correctIndex": 0, "explanation": "Grandfather's only son is Ravi's father, so the girl is Ravi's father's daughter — his sister."},
+        {"subject": "Reasoning", "question": "In a code, 'RIVER' is written as 'SJWFS'. How would 'WATER' be written in the same code?", "options": ["XBUFS", "XCUFT", "YBUFS", "XBVFS"], "correctIndex": 0, "explanation": "Each letter is shifted forward by 1: W→X, A→B, T→U, E→F, R→S, giving XBUFS."},
+        {"subject": "Reasoning", "question": "Statements: All cats are animals. Some animals are dogs. Conclusion: Some cats are dogs. Does the conclusion follow?", "options": ["Follows", "Does not follow"], "correctIndex": 1, "explanation": "The statements don't establish any direct link between cats and dogs, so the conclusion does not necessarily follow."},
+        {"subject": "Reasoning", "question": "Find the missing number: 4, 9, 16, 25, ?, 49", "options": ["30", "32", "34", "36"], "correctIndex": 3, "explanation": "These are squares of 2,3,4,5,6,7. The missing term is 6² = 36."},
+        {"subject": "Reasoning", "question": "A man walks 4 km North, then 3 km East. How far is he from his starting point?", "options": ["5 km", "6 km", "7 km", "8 km"], "correctIndex": 0, "explanation": "By Pythagoras theorem: √(4²+3²) = √25 = 5 km."},
+        {"subject": "GA", "question": "Who is the Chief Justice of India as of mid-2026?", "options": ["D. Y. Chandrachud", "Sanjiv Khanna", "B. R. Gavai", "Surya Kant"], "correctIndex": 3, "explanation": "Surya Kant was sworn in as the 53rd Chief Justice of India on 24 November 2025."},
+        {"subject": "GA", "question": "The Ram Mandir at Ayodhya was consecrated (Pran Pratishtha) in January of which year?", "options": ["2022", "2023", "2024", "2025"], "correctIndex": 2, "explanation": "The consecration ceremony was held on 22 January 2024."},
+        {"subject": "GA", "question": "Which Indian athlete won India's first individual Olympic gold medal in athletics, at the Tokyo 2020 Olympics?", "options": ["Milkha Singh", "P. T. Usha", "Neeraj Chopra", "Abhinav Bindra"], "correctIndex": 2, "explanation": "Neeraj Chopra won gold in the javelin throw at the Tokyo 2020 Olympics (held in 2021)."},
+        {"subject": "GA", "question": "How many houses does the Indian Parliament have?", "options": ["1", "2", "3", "4"], "correctIndex": 1, "explanation": "Parliament has two houses: the Lok Sabha (House of the People) and the Rajya Sabha (Council of States)."},
+        {"subject": "GA", "question": "Which Indian city hosted the G20 Summit in 2023?", "options": ["Mumbai", "New Delhi", "Bengaluru", "Hyderabad"], "correctIndex": 1, "explanation": "India hosted the G20 Summit in New Delhi in September 2023."},
+        {"subject": "GA", "question": "Where is the headquarters of the World Health Organization (WHO) located?", "options": ["Geneva", "Paris", "Vienna", "New York"], "correctIndex": 0, "explanation": "WHO is headquartered in Geneva, Switzerland."},
+        {"subject": "GA", "question": "Who took charge as Governor of the Reserve Bank of India in December 2024?", "options": ["Shaktikanta Das", "Urjit Patel", "Sanjay Malhotra", "Raghuram Rajan"], "correctIndex": 2, "explanation": "Sanjay Malhotra was inaugurated as the 26th RBI Governor on 11 December 2024."},
+        {"subject": "GA", "question": "From which date was the Goods and Services Tax (GST) implemented in India?", "options": ["1 April 2016", "1 July 2017", "1 January 2018", "1 July 2019"], "correctIndex": 1, "explanation": "GST was rolled out nationwide on 1 July 2017."},
+        {"subject": "GA", "question": "India won the 2024 ICC Men's T20 World Cup by defeating which team in the final?", "options": ["Australia", "England", "South Africa", "New Zealand"], "correctIndex": 2, "explanation": "India beat South Africa in the final on 29 June 2024."}
+      ]
+    },
+    {
+      "id": "mock-2",
+      "title": "Mock Test 2 — Group D Pattern",
+      "durationMinutes": 25,
+      "description": "25 questions covering Maths, Reasoning, General Science and Current Affairs in roughly Group D (Level 1) proportions.",
+      "questions": [
+        {"subject": "Math", "question": "Find the LCM of 12 and 18.", "options": ["24", "30", "36", "48"], "correctIndex": 2, "explanation": "12=2²×3, 18=2×3². LCM = 2²×3² = 36."},
+        {"subject": "Math", "question": "A shopkeeper marks an item at ₹800 and gives a 25% discount. Find the selling price.", "options": ["₹550", "₹600", "₹650", "₹700"], "correctIndex": 1, "explanation": "SP = 800×(100-25)/100 = 800×0.75 = ₹600."},
+        {"subject": "Math", "question": "Find the compound interest on ₹10,000 at 10% per annum for 2 years.", "options": ["₹2000", "₹2100", "₹2200", "₹2400"], "correctIndex": 1, "explanation": "CI = 10000×[(1.1)²−1] = 10000×0.21 = ₹2100."},
+        {"subject": "Math", "question": "A can finish a work in 12 days and B in 18 days. Working together, how many days will they take?", "options": ["6 days", "7.2 days", "8 days", "9 days"], "correctIndex": 1, "explanation": "Combined rate = 1/12+1/18 = 5/36 per day, so time = 36/5 = 7.2 days."},
+        {"subject": "Math", "question": "A boat's speed in still water is 12 km/h and the current's speed is 4 km/h. Find the time to travel 32 km downstream.", "options": ["1.5 hr", "2 hr", "2.5 hr", "3 hr"], "correctIndex": 1, "explanation": "Downstream speed = 12+4 = 16 km/h. Time = 32/16 = 2 hours."},
+        {"subject": "Math", "question": "Find the area of a circle with radius 7 cm (use π = 22/7).", "options": ["144 cm²", "150 cm²", "154 cm²", "160 cm²"], "correctIndex": 2, "explanation": "Area = πr² = (22/7)×49 = 154 cm²."},
+        {"subject": "Math", "question": "Find the next term: 3, 7, 15, 31, 63, ?", "options": ["111", "119", "125", "127"], "correctIndex": 3, "explanation": "Each term follows ×2+1: 63×2+1 = 127."},
+        {"subject": "Reasoning", "question": "Find the odd one out: 121, 144, 169, 200", "options": ["121", "144", "169", "200"], "correctIndex": 3, "explanation": "121=11², 144=12², 169=13² are perfect squares; 200 is not."},
+        {"subject": "Reasoning", "question": "If P means '+', Q means '−', R means '×', S means '÷', find the value of: 10 R 2 P 6 S 3", "options": ["20", "22", "24", "26"], "correctIndex": 1, "explanation": "10×2 + 6÷3 = 20+2 = 22."},
+        {"subject": "Reasoning", "question": "Complete the series: A, C, F, J, ?", "options": ["M", "N", "O", "P"], "correctIndex": 2, "explanation": "The gap increases by 1 each time: A+2=C, C+3=F, F+4=J, J+5=O."},
+        {"subject": "Reasoning", "question": "Find the odd one out: Mumbai, Delhi, Kolkata, Sahara", "options": ["Mumbai", "Delhi", "Kolkata", "Sahara"], "correctIndex": 3, "explanation": "The first three are cities; Sahara is a desert."},
+        {"subject": "Reasoning", "question": "Pointing to a man, a woman said, 'His mother is the only daughter of my mother.' How is the woman related to the man?", "options": ["Mother", "Sister", "Aunt", "Grandmother"], "correctIndex": 0, "explanation": "'The only daughter of my mother' is the woman herself, so the man's mother is the woman — she is his mother."},
+        {"subject": "Reasoning", "question": "Statements: All pens are pencils. All pencils are erasers. Conclusion: All pens are erasers. Does it follow?", "options": ["Follows", "Does not follow"], "correctIndex": 0, "explanation": "Since all pens are pencils and all pencils are erasers, all pens must be erasers — the conclusion logically follows."},
+        {"subject": "Reasoning", "question": "A is facing North. He turns 90° clockwise, then 180° more. Which direction does he now face?", "options": ["North", "South", "East", "West"], "correctIndex": 3, "explanation": "90° clockwise from North = East. A further 180° turn from East = West."},
+        {"subject": "Science", "question": "The SI unit of electric current is:", "options": ["Volt", "Ampere", "Ohm", "Watt"], "correctIndex": 1, "explanation": "Electric current is measured in Amperes (A)."},
+        {"subject": "Science", "question": "Which gas is most abundant in Earth's atmosphere?", "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Argon"], "correctIndex": 1, "explanation": "Nitrogen makes up about 78% of the atmosphere by volume."},
+        {"subject": "Science", "question": "The 'powerhouse of the cell' is the:", "options": ["Nucleus", "Ribosome", "Mitochondria", "Golgi body"], "correctIndex": 2, "explanation": "Mitochondria generate the cell's energy (ATP), earning the nickname 'powerhouse of the cell'."},
+        {"subject": "Science", "question": "The pH value of a neutral solution is:", "options": ["0", "7", "10", "14"], "correctIndex": 1, "explanation": "A pH of 7 is neutral; below 7 is acidic, above 7 is basic."},
+        {"subject": "Science", "question": "Deficiency of which vitamin causes scurvy?", "options": ["Vitamin A", "Vitamin B1", "Vitamin C", "Vitamin D"], "correctIndex": 2, "explanation": "Vitamin C deficiency causes scurvy."},
+        {"subject": "Science", "question": "Sound cannot travel through:", "options": ["Water", "Steel", "Vacuum", "Air"], "correctIndex": 2, "explanation": "Sound is a mechanical wave and needs a medium — it cannot travel through a vacuum."},
+        {"subject": "GA", "question": "India's 'Operation Sindoor' (May 2025) was launched in response to which terrorist attack?", "options": ["The Pulwama attack", "The Pahalgam attack", "The Uri attack", "The 26/11 Mumbai attack"], "correctIndex": 1, "explanation": "Operation Sindoor followed the April 2025 terror attack on tourists in Pahalgam, Jammu & Kashmir."},
+        {"subject": "GA", "question": "Who took oath as Bihar's Chief Minister for a record 10th time after the November 2025 assembly election?", "options": ["Tejashwi Yadav", "Nitish Kumar", "Samrat Chaudhary", "Sushil Kumar Modi"], "correctIndex": 1, "explanation": "Nitish Kumar took oath as Bihar CM for a record 10th time on 20 November 2025 after the NDA's landslide win."},
+        {"subject": "GA", "question": "Chandrayaan-3 made its successful soft landing near which region of the Moon?", "options": ["North pole", "South pole", "The equator", "The far side"], "correctIndex": 1, "explanation": "Chandrayaan-3 landed near the Moon's south pole on 23 August 2023 — now marked as National Space Day."},
+        {"subject": "GA", "question": "In which year did India win the Women's Cricket World Cup for the first time?", "options": ["2017", "2022", "2023", "2025"], "correctIndex": 3, "explanation": "India won its first-ever Women's Cricket World Cup title on 2 November 2025."}
+      ]
+    }
+  ]
+}

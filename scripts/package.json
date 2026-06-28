@@ -1,0 +1,13 @@
+{
+  "name": "rrb-prep-current-affairs-updater",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Scheduled script that fetches fresh current affairs via the Gemini API (with Google Search grounding) and appends them to data/current_affairs.json.",
+  "scripts": {
+    "update": "node update-current-affairs.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

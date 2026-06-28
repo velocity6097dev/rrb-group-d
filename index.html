@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RRB Prep — NTPC &amp; Group D Exam Companion</title>
+<meta name="description" content="A complete RRB NTPC & Group D exam prep companion — syllabus, mock tests, progress tracking and a regularly updated current affairs archive.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="app-header">
+  <div class="brand">
+    <span class="dot">●</span>
+    <h1>RRB Prep</h1>
+  </div>
+  <div class="tagline">NTPC &amp; Group D · Syllabus · Mock Tests · Current Affairs</div>
+</header>
+
+<main>
+  <section id="page-home" class="page">
+    <div id="home-content"></div>
+  </section>
+
+  <section id="page-syllabus" class="page">
+    <div id="syllabus-content"></div>
+  </section>
+
+  <section id="page-current-affairs" class="page">
+    <div id="ca-content"></div>
+  </section>
+
+  <section id="page-mock-tests" class="page">
+    <div id="mocktest-content"></div>
+  </section>
+
+  <section id="page-progress" class="page">
+    <div id="progress-content"></div>
+  </section>
+</main>
+
+<nav class="bottom-nav">
+  <button class="nav-btn" data-page="home">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg>
+    Home
+  </button>
+  <button class="nav-btn" data-page="syllabus">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h12a2 2 0 0 1 2 2v14H6a2 2 0 0 1-2-2V4z"/><path d="M8 8h8M8 12h8"/></svg>
+    Syllabus
+  </button>
+  <button class="nav-btn" data-page="current-affairs">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+    Current Affairs
+  </button>
+  <button class="nav-btn" data-page="mock-tests">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+    Mock Tests
+  </button>
+  <button class="nav-btn" data-page="progress">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 16l4-6 4 3 5-8"/></svg>
+    Progress
+  </button>
+</nav>
+
+<script src="js/storage.js"></script>
+<script src="js/data.js"></script>
+<script src="js/router.js"></script>
+<script src="js/syllabus.js"></script>
+<script src="js/mocktest.js"></script>
+<script src="js/currentaffairs.js"></script>
+<script src="js/progress.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

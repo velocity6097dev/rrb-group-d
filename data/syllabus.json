@@ -1,0 +1,101 @@
+{
+  "subjects": [
+    {
+      "id": "math",
+      "name": "Mathematics",
+      "icon": "calc",
+      "topics": [
+        {"id": "math-number-system", "name": "Number System", "notes": "Classification: Natural, Whole, Integers, Rational, Irrational, Real numbers. Divisibility rules for 2, 3, 4, 5, 6, 8, 9, 11. Even/odd and prime/composite numbers. Face value vs place value. Sum of first n natural numbers = n(n+1)/2; sum of squares = n(n+1)(2n+1)/6. Divisibility tests are asked directly in almost every RRB paper."},
+        {"id": "math-hcf-lcm", "name": "HCF and LCM", "notes": "HCF (GCD) = highest common factor; LCM = lowest common multiple. Product of two numbers = HCF × LCM. For fractions: HCF = HCF(numerators)/LCM(denominators); LCM = LCM(numerators)/HCF(denominators). Use prime factorisation or long division method. Common application: bells-ringing-together / minimum-tiles type problems."},
+        {"id": "math-simplification", "name": "Simplification & Approximation", "notes": "Follow BODMAS/VBODMAS strictly. Memorise squares (1-30), cubes (1-15) and tables (1-25) for speed. Approximation questions ask for the 'nearest value' — round each term before calculating instead of computing the exact answer."},
+        {"id": "math-decimal-fraction", "name": "Decimals and Fractions", "notes": "Convert decimals to fractions using place value (0.25 = 25/100 = 1/4). Pure recurring decimal 0.(ab) = ab/99; mixed recurring = (whole minus non-recurring part) / (9s and 0s). Compare fractions by cross-multiplication."},
+        {"id": "math-ratio-proportion", "name": "Ratio and Proportion", "notes": "a:b = a/b. If a:b = c:d then ad = bc (cross-product rule). Types: direct, inverse, compound proportion. Mixture & alligation problems combine ratio with averages and are common in RRB papers."},
+        {"id": "math-percentage", "name": "Percentage", "notes": "Percent means 'per hundred'. To increase/decrease a number by x%, multiply by (100±x)/100. Successive percentage change: net% = a + b + (ab/100). Memorise common fraction-to-% conversions (1/8=12.5%, 1/3=33.33%, 1/6=16.67%) for speed."},
+        {"id": "math-profit-loss", "name": "Profit, Loss and Discount", "notes": "Profit = SP − CP; Loss = CP − SP. Profit% = (Profit/CP) × 100. SP after discount = MP × (100 − discount%)/100. Successive discounts are combined the same way as successive percentage changes."},
+        {"id": "math-si-ci", "name": "Simple & Compound Interest", "notes": "SI = (P × R × T)/100. CI = P[(1+R/100)^T − 1]. CI > SI whenever T > 1. Half-yearly compounding: halve the rate, double the time. Difference between CI and SI over 2 years = P(R/100)²."},
+        {"id": "math-time-work", "name": "Time and Work", "notes": "If A finishes work in 'a' days, A's one-day work = 1/a. For combined work, add individual one-day work rates. Wages should be split in the ratio of work actually done (efficiency × days worked)."},
+        {"id": "math-time-speed-distance", "name": "Time, Speed and Distance", "notes": "Speed = Distance/Time. km/h → m/s: multiply by 5/18; m/s → km/h: multiply by 18/5. Relative speed: add if moving opposite directions, subtract if same direction. Boats & streams: downstream = u+v, upstream = u−v."},
+        {"id": "math-mensuration-2d", "name": "Mensuration — 2D", "notes": "Rectangle area = l×b. Square area = s². Triangle area = ½×base×height, or Heron's formula √[s(s−a)(s−b)(s−c)]. Circle area = πr², circumference = 2πr. Trapezium area = ½×(sum of parallel sides)×height."},
+        {"id": "math-mensuration-3d", "name": "Mensuration — 3D", "notes": "Cuboid: volume=l×b×h, surface area=2(lb+bh+hl). Cube: volume=s³. Cylinder: volume=πr²h, curved surface area=2πrh. Cone: volume=⅓πr²h, slant height=√(r²+h²). Sphere: volume=4/3πr³, surface area=4πr²."},
+        {"id": "math-algebra", "name": "Algebra", "notes": "Key identities: (a+b)²=a²+2ab+b²; (a−b)²=a²−2ab+b²; a²−b²=(a+b)(a−b); (a+b)³=a³+b³+3ab(a+b). Quadratic equation ax²+bx+c=0 has roots x=[−b±√(b²−4ac)]/2a."},
+        {"id": "math-geometry", "name": "Geometry", "notes": "Triangle's angles sum to 180°. Pythagoras theorem (right triangles only): hypotenuse²=base²+height². Angle in a semicircle = 90°. Quadrilateral angles sum to 360°. Congruence/similarity rules: SSS, SAS, ASA, AA."},
+        {"id": "math-trigonometry", "name": "Trigonometry", "notes": "sinθ=opposite/hypotenuse, cosθ=adjacent/hypotenuse, tanθ=opposite/adjacent. Memorise standard values for 0°, 30°, 45°, 60°, 90°. Identity: sin²θ+cos²θ=1. Height & distance problems use angle of elevation/depression with tanθ."},
+        {"id": "math-statistics", "name": "Elementary Statistics", "notes": "Mean = sum of observations / count. Median = middle value when arranged in order (average of two middle values if count is even). Mode = most frequent value. Practice reading bar graphs, pie charts and tables quickly."},
+        {"id": "math-roots", "name": "Square Roots & Cube Roots", "notes": "Find square roots by prime factorisation or the division method. Cube roots: factorise into groups of 3 identical primes. Memorise squares up to 30² and cubes up to 15² for exam speed."},
+        {"id": "math-ages", "name": "Problems on Ages", "notes": "Set up an equation using 'present age' as the variable, then apply the time condition given (past/future). If a ratio of ages is given, assume the ages as multiples of a common variable (e.g., 3x and 5x)."},
+        {"id": "math-calendar-clock", "name": "Calendar and Clock", "notes": "A normal year has 1 odd day (365 days = 52 weeks + 1); a leap year has 2. Use 'odd days' to find the day of the week for any date. Clock: each hour-mark=30°, minute hand moves 6°/min, hour hand moves 0.5°/min; angle between hands = |30H − 11M/2|."},
+        {"id": "math-pipes-cisterns", "name": "Pipes and Cisterns", "notes": "Same logic as Time & Work — a pipe filling a tank in 'x' hours fills 1/x of it per hour. Outlet (emptying) pipes count as negative work. Net rate per hour = sum of inlet rates − sum of outlet rates."},
+        {"id": "math-data-interpretation", "name": "Data Interpretation", "notes": "Read the chart/table and the exact question carefully before calculating. Compute only what's asked rather than every value in the table. Practise quick approximation to save time under exam pressure."},
+        {"id": "math-averages", "name": "Averages", "notes": "Average = sum of items / number of items. If a value is added/removed from a group: new average = (old sum ± value)/new count. Average speed for equal distances at two speeds = 2xy/(x+y)."}
+      ]
+    },
+    {
+      "id": "reasoning",
+      "name": "General Intelligence & Reasoning",
+      "icon": "brain",
+      "topics": [
+        {"id": "rs-analogy", "name": "Analogy", "notes": "Find the relationship between a given pair of words/numbers/letters and apply the same logic to find the missing term (letter shift, opposite, part-whole, etc.). Practice both word and number analogies."},
+        {"id": "rs-series", "name": "Series Completion", "notes": "Identify the pattern: arithmetic (constant difference), geometric (constant ratio), alternating, or a mix. For alphabet series, convert letters to numbers (A=1...Z=26) to spot the pattern faster."},
+        {"id": "rs-coding-decoding", "name": "Coding-Decoding", "notes": "Common types: letter shifting (+1/−1 etc.), substitution coding, number coding. Decode the given example pattern first, then apply the exact same rule to the word/code asked in the question."},
+        {"id": "rs-math-operations", "name": "Mathematical Operations", "notes": "Symbols are swapped with operators (e.g., '+' actually means '×'). Substitute carefully, then solve using BODMAS with the new meanings — don't let the swapped symbols confuse you."},
+        {"id": "rs-similarities", "name": "Similarities & Differences", "notes": "Classification ('odd one out') questions test which item doesn't share the common property of the rest of the group — check the category (e.g., all are mammals except one) or the numeric pattern (all are primes except one)."},
+        {"id": "rs-blood-relations", "name": "Blood Relations", "notes": "Draw a quick family-tree diagram as you read the statements — this avoids confusion across generations and in-laws. Know terms like paternal/maternal and in-law relationships."},
+        {"id": "rs-analytical", "name": "Analytical Reasoning", "notes": "Read all the given statements fully before drawing any conclusion. Use elimination across the answer options when the relationships described are complex or layered."},
+        {"id": "rs-syllogism", "name": "Syllogism", "notes": "Use Venn diagrams to test 'All', 'Some' and 'No' statements. Remember: 'Some A are B' doesn't make 'Some A are not B' automatically false — both can be true depending on context."},
+        {"id": "rs-arrangement", "name": "Sentence/Word Arrangement", "notes": "For jumbled sentences, identify the logical connector or chronological order. For seating arrangement, draw a diagram (linear/circular), place fixed clues first, then work out relative positions."},
+        {"id": "rs-venn", "name": "Venn Diagrams", "notes": "Used to represent set relationships and solve overlapping-category problems (e.g., students who play cricket and/or football). Practise both 2-circle and 3-circle Venn diagrams."},
+        {"id": "rs-puzzle", "name": "Puzzle & Seating Arrangement", "notes": "Draw the seating diagram carefully and note the 'facing direction' if mentioned — it changes which side is left/right. Solve fixed-position clues before relative-position clues."},
+        {"id": "rs-data-sufficiency", "name": "Data Sufficiency", "notes": "Decide whether the given statement(s) — alone, together, or neither — are sufficient to answer the question. You don't need to actually find the answer, only judge sufficiency."},
+        {"id": "rs-statement-conclusion", "name": "Statement & Conclusion", "notes": "Check if a conclusion logically and necessarily follows from the statement(s) alone — don't bring in outside/general knowledge while judging this."},
+        {"id": "rs-direction", "name": "Direction Sense", "notes": "Draw the path on paper using N-E-S-W. Standard rule: facing north, a right turn faces east, a left turn faces west. Net displacement problems usually use the Pythagoras theorem when the path forms a right angle."},
+        {"id": "rs-nonverbal", "name": "Non-verbal Reasoning", "notes": "Mirror image flips left-right (vertical mirror); water image flips top-bottom and is upside down (horizontal mirror). Practise figure series and figure-matching (counting sides/shapes) for speed."}
+      ]
+    },
+    {
+      "id": "science",
+      "name": "General Science",
+      "icon": "flask",
+      "topics": [
+        {"id": "sci-motion-force", "name": "Motion & Force", "notes": "Newton's three laws of motion. SI unit of force = Newton. Speed = distance/time; velocity is speed with direction. Acceleration = change in velocity / time."},
+        {"id": "sci-work-energy-power", "name": "Work, Energy & Power", "notes": "Work = Force × Displacement (Joule). Kinetic energy = ½mv²; Potential energy = mgh. Power = Work/Time (Watt). Law of conservation of energy: energy can neither be created nor destroyed."},
+        {"id": "sci-light", "name": "Light", "notes": "Reflection: angle of incidence = angle of reflection. Refraction occurs when light passes between media of different density. Convex lens converges light; concave lens diverges it (mirror conventions are the opposite of lenses — be careful)."},
+        {"id": "sci-electricity-magnetism", "name": "Electricity & Magnetism", "notes": "Current (Ampere) = charge/time. Ohm's Law: V = IR. Series circuit: same current, voltage divides. Parallel circuit: same voltage, current divides. Right-hand thumb rule gives the magnetic field direction around a current-carrying wire."},
+        {"id": "sci-heat", "name": "Heat", "notes": "Heat flows from hot to cold via conduction, convection or radiation. SI unit of temperature = Kelvin. Specific heat capacity = heat needed to raise 1 kg of a substance by 1°C."},
+        {"id": "sci-sound", "name": "Sound", "notes": "Sound needs a medium to travel — it cannot travel in a vacuum. Speed of sound in air ≈ 343 m/s; it travels faster in solids than liquids than gases. Frequency determines pitch; amplitude determines loudness."},
+        {"id": "sci-matter-states", "name": "Matter & States", "notes": "Matter exists as solid, liquid, gas, and plasma. Changes of state: melting, boiling, freezing, condensation, sublimation. Mixtures can be homogeneous or heterogeneous."},
+        {"id": "sci-atomic-structure", "name": "Atomic Structure", "notes": "An atom has a nucleus (protons + neutrons) with electrons in shells around it. Atomic number = number of protons; mass number = protons + neutrons. Isotopes share the atomic number but differ in mass number."},
+        {"id": "sci-acids-bases", "name": "Acids, Bases & Salts", "notes": "Acids turn blue litmus red (pH<7); bases turn red litmus blue (pH>7); pH 7 is neutral. Common acids: HCl (stomach), citric acid (citrus fruit), acetic acid (vinegar). Common bases: NaOH, Ca(OH)₂."},
+        {"id": "sci-periodic-table", "name": "Periodic Table", "notes": "Elements are arranged by increasing atomic number. Groups (vertical columns) share similar properties; periods (horizontal rows) show a gradual property trend. Noble gases (Group 18) are chemically inert."},
+        {"id": "sci-carbon-compounds", "name": "Carbon Compounds", "notes": "Carbon forms covalent bonds and long chains (catenation). Hydrocarbons: alkanes (single bonds), alkenes (one double bond), alkynes (one triple bond). Organic compounds form the basis of life and most fuels."},
+        {"id": "sci-chemical-reactions", "name": "Chemical Reactions", "notes": "Types: combination, decomposition, displacement, double displacement, oxidation-reduction. When balancing equations, the number of atoms of each element must match on both sides."},
+        {"id": "sci-cell", "name": "Cell Structure", "notes": "The cell is the basic unit of life. Plant cells have a cell wall, chloroplast and large vacuole; animal cells don't. The nucleus controls cell activities and holds DNA. Mitochondria is the cell's 'powerhouse'."},
+        {"id": "sci-human-body", "name": "Human Body Systems", "notes": "Major systems: digestive, respiratory, circulatory (4-chambered heart), nervous (brain & spinal cord), skeletal (206 bones in adults), endocrine (hormones). Know the basic function of each major organ."},
+        {"id": "sci-diseases", "name": "Diseases & Immunity", "notes": "Diseases can be communicable (caused by pathogens like bacteria/viruses) or non-communicable (lifestyle/genetic). Vaccines build immunity by exposing the body to a weakened or inactive form of a pathogen."},
+        {"id": "sci-nutrition", "name": "Nutrition & Vitamins", "notes": "Carbohydrates & fats give energy; proteins aid growth and repair. Deficiency diseases: Vitamin A (night blindness), Vitamin C (scurvy), Vitamin D (rickets), Vitamin B1 (beriberi). Minerals: iron (anaemia), iodine (goitre), calcium (bones)."}
+      ]
+    },
+    {
+      "id": "ga",
+      "name": "General Awareness",
+      "icon": "globe",
+      "topics": [
+        {"id": "ga-current-affairs", "name": "Current Affairs", "notes": "Use the Current Affairs section of this app for the latest news — current affairs from the last 6-12 months carry the highest weightage in the GA section of RRB exams. Review it regularly, not just before the exam."},
+        {"id": "ga-history-ancient", "name": "History — Ancient & Medieval", "notes": "Indus Valley Civilization, Vedic period, Mauryan & Gupta empires, major medieval dynasties (Delhi Sultanate, Mughals, Vijayanagara). Focus on important rulers, their achievements, and major monuments."},
+        {"id": "ga-history-modern", "name": "History — Modern & Freedom Struggle", "notes": "1857 Revolt, formation of the INC (1885), partition of Bengal, Gandhi's movements (Non-Cooperation, Civil Disobedience, Quit India), key freedom fighters and their roles, Independence & Partition (1947)."},
+        {"id": "ga-geo-physical", "name": "Geography — Physical (India)", "notes": "Major mountain ranges (Himalayas, Western/Eastern Ghats), major rivers (Ganga, Brahmaputra, Godavari etc. — source, length, tributaries), India's climate types and soil types."},
+        {"id": "ga-geo-economic", "name": "Geography — Economic Resources", "notes": "Major crops by region, mineral resources (coal & iron-ore producing states), key industrial regions, India's neighbouring countries and the states bordering them."},
+        {"id": "ga-world-geo", "name": "World Geography Basics", "notes": "Continents and oceans, major international boundaries, the world's longest rivers / highest mountains / largest deserts, and capital cities of major countries."},
+        {"id": "ga-polity", "name": "Indian Polity & Constitution", "notes": "Constitution adopted 26 Nov 1949, effective from 26 Jan 1950. Fundamental Rights (Art. 12-35), Directive Principles, structure of Parliament (Lok Sabha & Rajya Sabha), powers of the President & PM, and key constitutional amendments."},
+        {"id": "ga-economy", "name": "Indian Economy Basics", "notes": "Key terms: GDP, GNP, inflation, fiscal deficit, repo rate. Five-Year Plans and NITI Aayog. Structure of banking (RBI as central bank; public/private/cooperative banks). Major economic schemes."},
+        {"id": "ga-environment", "name": "Environment & Ecology", "notes": "India's biodiversity hotspots, major national parks and tiger reserves, climate change basics (greenhouse effect, global warming), and key international agreements (Paris Agreement, Kyoto Protocol)."},
+        {"id": "ga-inventions", "name": "Inventions & Discoveries", "notes": "Key inventors and their inventions (telephone — Bell, light bulb — Edison, etc.), Indian scientists and their work (Raman, Bose, Bhabha, Sarabhai, Kalam), and Nobel laureates from India."},
+        {"id": "ga-sports", "name": "Sports GK", "notes": "Major events (Olympics, Commonwealth Games, Asian Games) with their venues/years, important trophies & cups by sport, sports terminology, and national sports awards (Khel Ratna, Arjuna Award)."},
+        {"id": "ga-art-culture", "name": "Indian Art & Culture", "notes": "Classical dance forms (Bharatanatyam, Kathak, Odissi, etc.) and their states of origin, classical music (Hindustani & Carnatic), UNESCO World Heritage Sites in India, and major festivals."},
+        {"id": "ga-schemes", "name": "Government Schemes", "notes": "Flagship schemes: Ayushman Bharat, PM-Kisan, Jan Dhan Yojana, Swachh Bharat, Ujjwala Yojana, Make in India, Digital India, Skill India — know the launch year and core objective of each."},
+        {"id": "ga-static-gk", "name": "Static GK", "notes": "Important days (Republic Day — 26 Jan, National Science Day — 28 Feb, etc.), national symbols, authors of famous books, and headquarters of major international organisations (UN, WHO, IMF)."},
+        {"id": "ga-computers", "name": "Computer Awareness", "notes": "Basic hardware/software terms, input/output devices, internet basics, common file extensions, generations of computers, and MS Office basics."},
+        {"id": "ga-railway", "name": "Indian Railways GK", "notes": "Indian Railways was founded in 1853 (first train ran Mumbai–Thane). It's divided into zones & divisions under the Railway Board. Know gauge types (broad/metre/narrow) and recent projects (Vande Bharat, dedicated freight corridors, the bullet train project)."}
+      ]
+    }
+  ]
+}
