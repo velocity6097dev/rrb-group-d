@@ -2,35 +2,49 @@ name: Update current affairs
 
 on:
   schedule:
-    # Runs at 00:00, 05:00, 10:00, 15:00 and 20:00 UTC — every 5 hours.
-    - cron: '0 */5 * * *'
-  workflow_dispatch: {} # lets you trigger it manually from the Actions tab to test it
-
-permissions:
-  contents: write
+    - cron: '0 0,6,12,18 * * *'
+  workflow_dispatch:
 
 jobs:
-  update-current-affairs:
+  update:
     runs-on: ubuntu-latest
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
+    permissions:
+      contents: write
 
-      - name: Set up Node.js
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '18'
 
-      - name: Run updater
+      - name: Install dependencies
+        working-directory: scripts
+        run: |
+          npm init -y
+          npm install node-fetch@2
+
+      - name: Run update script
         working-directory: scripts
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          NEWSDATA_API_KEY: ${{ secrets.NEWSDATA_API_KEY }}
         run: node update-current-affairs.mjs
 
-      - name: Commit and push if data changed
+      - name: Configure Git
         run: |
-          git config user.name "rrb-prep-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add data/current_affairs.json
-          git diff --cached --quiet && echo "No changes to commit." || git commit -m "Auto-update current affairs ($(date -u +'%Y-%m-%d %H:%M UTC'))"
-          git push
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+
+      - name: Commit and push changes
+        run: |
+          if git diff --quiet data/current_affairs.json; then
+            echo "No changes to current affairs data"
+          else
+            git add data/current_affairs.json
+            git commit -m "chore: update current affairs [automated]"
+            git push
+        
